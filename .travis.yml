@@ -1,9 +1,12 @@
 language: python
 python:
-  - "3.5"
+- '3.5'
 install:
-  - pip install numpy
-  - pip install matplotlib
+- pip install numpy
+- pip install matplotlib
 script:
-  - python test.py
-  - ls
+- python test.py
+- ls
+env:
+  global:
+    secure: QvYCxmopc/1NdAlwLGlkgA0IaGtln/ZEJ8Vxz8WZ11DlsUCzdNRxhYqhZVFQ0v1HbRSUwCKP+slqJA7bKX/VqP6QRxIpOSUk3B/TkXB9WtKMxWgcTaHXcon1i70Ge+TdCZrjm5g3bz8U7y/eATihCeimbBWphEj6MkqJQGaPL5nIFymJnNWNb7BZ449q2/4KA35PhzatsVpAGi6dM/vyI+1T3EACmoObVZNOD2SZkRCh8EB/i4LG2tlg3+m2T10B3DsfvYpVtA/9N2m8G6jDTLyJjN/R6nYXBAoeiN3geUoQDl3nefutDC5VVN3hQ4TwaLqJPM6DqSz0FvngDyn+J0ty+Tny1t0aE+KEu3WzvT9Cf0Z+uXS93MNn1Go5YZwFKCH5QjsmLJ0SNbi9TuUYU2sGOvRGpKorQT710Lxn2DgeHcdH7FXtbp6IO/x/reaFmJ4IhotBIQx9VdGrmW2z2IymDPy8AeNRomdSl6JEg3kkxKCeTq1SFzaZU2wXarXzeVqAtw/veFNdiLa/tOsvYU8JFXhYQf6LaNVGkMvUvpkYpTTm2K8P8Xxfl7Gozd6XtYkSdpYjh1qtJm0+1l0SZGn42deultHBRFsoRiFkssQ3XPkDx5cib5X9Caf9joFLh33yjn8Z1pCcaHJvjPz8wna9JBAO+bbOTIyCbaS7HAw=
