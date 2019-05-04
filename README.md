@@ -1,2 +1,3 @@
 # optimization-benchmark
-![Rosenbrock][rosenbrock.png]
+![Rosenbrock](rosenbrock.png)
+
